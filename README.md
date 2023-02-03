@@ -38,3 +38,5 @@ python svm.py --dataset_dir data/fashion --iterations 10 --kernel 'poly'
 ```
 python svm.py --dataset_dir data/fashion --iterations 10 --kernel 'sigmoid'
 ```
+
+Sample Accuracy present in test.ipynb notebook file
