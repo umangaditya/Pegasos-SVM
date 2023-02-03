@@ -6,11 +6,13 @@ Pegasos: Primal Estimated sub-GrAdient SOlver for SVM
 Run `pip install -r requirements.txt` to install required packages.
 
 ## Running the code
---dataset_dir = dataset path 
---classes = which 2 classes to take, default = [1, 2]
---iterations = No. of iterations, default = 10
---kernel = Type of kernel, Available kernel = ["rbf", "poly", "sigmoid"]
---lamda = lamda for Pegasos Algo, default = 1
+
+### Arguments
+- dataset_dir = dataset path 
+- classes = which 2 classes to take, default = [1, 2]
+- iterations = No. of iterations, default = 10
+- kernel = Type of kernel, Available kernel = ["rbf", "poly", "sigmoid"]
+- lamda = lamda for Pegasos Algo, default = 1
 
 ### Without kernel 
 Default class : 1 2
